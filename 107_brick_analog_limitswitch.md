@@ -25,7 +25,7 @@ OUTコネクタのいずれかに接続します。
 
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -71,7 +71,7 @@ void loop(){
 }
 ```
 
-### for RaspberryPI
+### for RaspberryPi
 GPIO5コネクタにLimitSwitch Brickを接続し、GPIO4コネクタに接続したLED Brickの点灯/消灯を制御しています。
 
 ```python
