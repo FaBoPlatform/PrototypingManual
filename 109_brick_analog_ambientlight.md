@@ -14,14 +14,14 @@ CDSセルを使用した光センサーBrickです。
 
 ![](/img/100_analog/connect/109_ambientlight_connect.jpg)
 
-### Raspberry PI
+### Raspberry Pi
 アナログコネクタ(A0〜A7)のいずれかに接続します。
 
 ### IchigoJam
 アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のどれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -60,7 +60,7 @@ void loop() {
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 A0コネクタにLight Brickを接続して、GPIO4コネクタに接続したLED Brickの明るさ調節に使用しています。
 ```python
 #!/usr/bin/env python
