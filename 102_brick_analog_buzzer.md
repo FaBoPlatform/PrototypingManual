@@ -66,7 +66,7 @@ tone関数にて出力できる音階と周波数は下記のようになりま�
 
 https://www.arduino.cc/en/Tutorial/ToneMelody?from=Tutorial.Tone
 
-### for Raspberry PI
+### for Raspberry Pi
 GPIO4コネクタにBuzzer Brickを接続し、ビープ音を鳴らしています。
 
 ```python
