@@ -13,7 +13,7 @@
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/103_button_connect.jpg)
 
-### Raspberry PI
+### Raspberry Pi
 GPIOコネクタのいずれかに接続します。
 
 ### IchigoJam
@@ -66,7 +66,7 @@ void loop(){
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 GPIO5コネクタに接続したButton Brickの入力により、GPIO4コネクタに接続したLED Brick の点灯/消灯を制御しています。
 ```python
 # coding: utf-8
