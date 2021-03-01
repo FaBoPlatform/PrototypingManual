@@ -12,13 +12,13 @@ BLEの転送レートは9600bpsに設定してあります。
 ## Connecting
 Serialコネクタへ接続します。
 
-Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシールドでは１箇所のみとなります。
+Serialコネクタは、Arduino用、RaspberryPi用、IchigoJam用のOUT/INシールドでは１箇所のみとなります。
 
 ![](/img/300_serial/connect/301_ble_connect.jpg)
 写真はArduinoの接続例です。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|×|
 
@@ -41,7 +41,7 @@ Serialコネクタは、Arduino用、RaspberryPI用、Ichigojam用のOUT/INシ�
 - [GitHub Repository](https://github.com/FaBoPlatform/FaBoBLE-BLE113-Library)
 - [Document](http://fabo.io/doxygen/FaBoBLE-BLE113-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - [pipからインストール](https://fabo.gitbooks.io/module/content/dev/pi/install_library.html)
 
   ライブラリ名：「FaBoBLE_BLE113」
