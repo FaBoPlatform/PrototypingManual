@@ -10,7 +10,7 @@ ONを押すと、I/OピンとGNDがつながります。
 ※ボタンカバー部分の色はランダムで送付するため色のご指定はできません。あらかじめご了承ください。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
