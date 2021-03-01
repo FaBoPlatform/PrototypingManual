@@ -17,7 +17,7 @@ I/Oピンから赤外線受信のON/OFFを取得することができます。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -63,7 +63,7 @@ void loop() {
 
 }
 ```
-### for Raspberry PI
+### for Raspberry Pi
 GPIO5コネクタに赤外線受信Brick、GPIO4コネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
 
 ```python
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 ```
 
-### for Ichigojam
+### for IchigoJam
 
 IN1コネクタに赤外線受信Brick、LEDコネクタにLED Brickを接続し、赤外線を受信したらLEDを発光させます。
 
