@@ -13,7 +13,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/209_ktemp_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|Edison|
+|Arduino|RaspberryPi|IchigoJam|Edison|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
@@ -41,7 +41,7 @@ FaBoBrickでは、0x68、または0x69の２種類を使用しています。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoKTemp-MCP3421-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoKTemp-MCP3421-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoKTemp_MCP3421
@@ -138,7 +138,7 @@ void loop() {
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 
 KTemp Brickはデバイスアドレスはサンプルプログラムと異なることがあります。
 (0x68〜0x6F)
@@ -203,7 +203,7 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
-### for Ichigojam
+### for IchigoJam
 このサンプルは、I2Cコネクタに接続したKtemp BrickにK型熱電対を接続し、熱電対から取得した値を温度に変換し画面上に出力します。
 ```
 10 'FaBo Brick Sample
