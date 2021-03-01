@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/214_oled_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoOLED-EROLED096-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoOLED-EROLED096-Library)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoOLED_EROLED096
@@ -52,8 +52,8 @@ pip install FaBoOLED_EROLED096
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 214 OLED EROLED096」からお選びください。
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+### for RaspberryPi
+上記のRaspberryPi Python Libraryをインストールしてからご使用ください。
 
 ```python
 # coding: utf-8
@@ -119,7 +119,7 @@ except KeyboardInterrupt:
     sys.exit()
 ```
 
-### for Ichigojam
+### for IchigoJam
 I2CコネクタにOLED I2C Brickを接続し、文字を表示します。
 
 ```
