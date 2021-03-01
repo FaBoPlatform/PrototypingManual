@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/204_barometer_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|
+|Arduino|RaspberryPi|
 |:--:|:--:|
 |◯|◯|
 
@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoBarometer-MPL115-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoBarometer-MPL115-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoBarometer_MPL115
@@ -152,7 +152,7 @@ void get_data(float *hpa, float *temp) {
 
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 I2Cコネクタに接続したBarometer Brickより、気圧、温度を取得し、シリアルモニタに出力します。
 
 ```python
