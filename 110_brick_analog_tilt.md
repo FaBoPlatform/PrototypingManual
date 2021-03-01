@@ -18,7 +18,7 @@ LED Brickを点灯/消灯させる際などに使用します。
 アナログコネクタ(A0〜A5)、またはデジタルコネクタ(2〜13)のいずれかに接続します。
 ![](/img/100_analog/connect/110_tilt_connect.jpg)
 
-### Raspberry PI
+### Raspberry Pi
 GPIOコネクタのいずれかに接続します。
 
 ### IchigoJam
@@ -67,7 +67,7 @@ void loop(){
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 
 GPIO5コネクタに接続したTilt Brickの傾きによって、GPIO4コネクタに接続したLED Brickを点灯/消灯させています。
 
