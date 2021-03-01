@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 <center>![](/img/200_i2c/connect/211_7seg_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -42,7 +42,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick裏面の�
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo7Seg-TLC59208-Library)
 - [Library Document](http://fabo.io/doxygen/FaBo7Seg-TLC59208-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBo7Seg_TLC59208
@@ -282,7 +282,7 @@ void ini(byte addr){
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 
 I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
 
@@ -445,7 +445,7 @@ if __name__ == '__main__':
            time.sleep(1)
 ```
 
-### for Ichigojam
+### for IchigoJam
 
 I2Cコネクタに7seg Brickを接続し、「0〜９」、「.」を順番に表示させます。
 
