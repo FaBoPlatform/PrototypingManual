@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/217_ambientlight_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoAmbientLight-ISL29034-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoAmbientLight-ISL29034-Library/)
 
-### for RapberryPI
+### for RaapberryPi
 - pipからインストール
 ```
 pip install FaBoAmbientLight_ISL29034
@@ -52,7 +52,7 @@ pip install FaBoAmbientLight_ISL29034
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 217 Ambient Light ISL29034」からお選びください。
 
-### for RapberryPI
+### for RaapberryPi
 上記のRapberryPI Python Libraryをインストールしてからご使用ください。
 
 ```python
@@ -86,7 +86,7 @@ except KeyboardInterrupt:
     sys.exit()
 ```
 
-### for Ichigojam
+### for IchigoJam
 I2Cコネクタに接続したAmbient Light I2C Brickより明るさを取得し、画面上に表示します。
 ```
 10 'FaBo Brick Sample
