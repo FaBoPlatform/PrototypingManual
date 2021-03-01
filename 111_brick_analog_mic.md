@@ -10,7 +10,7 @@
 ![](/img/100_analog/connect/111_mic_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
