@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/210_gpio_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|Edison|
+|Arduino|RaspberryPi|IchigoJam|Edison|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoGPIO-PCAL6408-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoGPIO-PCAL6408-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoGPIO_PCAL6408
@@ -92,7 +92,7 @@ void loop() {
 }
 ```
 
-### for RapberryPI
+### for RaspberryPi
 ```python
 # coding: utf-8
 ## @package FaBoGPIO_PCAL6408.py
@@ -126,7 +126,7 @@ except KeyboardInterrupt:
     sys.exit()
 ```
 
-### for Ichigojam
+### for IchigoJam
 I2CコネクタにGPIO Brickを接続し、GPIO Brickについている8つのLEDを左上から右下に向かって順番に点灯させます。
 
 ```
