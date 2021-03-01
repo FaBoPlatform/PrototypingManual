@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/203_color_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|Edison|
+|Arduino|RaspberryPi|IchigoJam|Edison|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
@@ -40,7 +40,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoColor-s11059-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoColor-s11059-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoColor_S11059
@@ -145,7 +145,7 @@ void getColor()
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、コンソールに出力します。
 
 ```python
@@ -205,7 +205,7 @@ if __name__ == '__main__':
         time.sleep(0.5)
 ```
 
-### for Ichigojam
+### for IchigoJam
 I2Cコネクタに接続したColor Brickにより、赤、緑、青、赤外の値を読み取り、画面上に出力します。
 
 ```
