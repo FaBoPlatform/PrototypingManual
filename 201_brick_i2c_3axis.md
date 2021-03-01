@@ -27,7 +27,7 @@ I2Cで3軸の加速度データを取得することがきます。
 写真はArduinoでの接続例です。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|NRF51|Edison|
+|Arduino|RaspberryPi|IchigoJam|NRF51|Edison|
 |:--:|:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|◯|
 
@@ -53,7 +53,7 @@ I2Cで3軸の加速度データを取得することがきます。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBo3Axis-ADXL345-Library)
 - [Library Document](http://fabo.io/doxygen/FaBo3Axis-ADXL345-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBo3Axis_ADXL345
