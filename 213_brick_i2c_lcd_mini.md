@@ -44,7 +44,7 @@ I2Cコネクタへ接続します。
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 213 LCD mini AQM0802A」からお選びください。
 
-### for Ichigojam
+### for IchigoJam
 I2CコネクタにLCD mini I2C Brickを接続し、LCD上に文字を表示させます。
 ```
 10 'LCD INIT
