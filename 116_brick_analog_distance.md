@@ -21,7 +21,7 @@ I/Oピンより距離センサーの正面についているレンズから物�
 アナログ用コネクタ(IN2またはANA()で設定したコネクタ)のいずれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -69,7 +69,7 @@ void loop() {
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 A0コネクタに接続し、距離を計測します。
 ```python
 #!/usr/bin/env python
