@@ -14,7 +14,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/212_lcd_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|
+|Arduino|RaspberryPi|
 |:--:|:--:|
 |◯|◯|
 
@@ -42,7 +42,7 @@ FaBo Brickでは、初期値に0x20が設定されています。Brick表面の�
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoLCD-PCF8574-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoLCD-PCF8574-Library)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoLCD_PCF8574
@@ -54,8 +54,8 @@ pip install FaBoLCD_PCF8574
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 212 LCD PCF8574」からお選びください。
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+### for RaspberryPi
+上記のRaspberryPi Python Libraryをインストールしてからご使用ください。
 
 ```python
 # coding: utf-8
