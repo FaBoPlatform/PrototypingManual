@@ -18,7 +18,7 @@ I/Oピンから赤外線LEDをON/OFFを制御することができます。
 OUTコネクタのいずれかに接続します。
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -110,7 +110,7 @@ void loop() {
 }
 ```
 
-### for Raspberry PI
+### for Raspberry Pi
 A0コネクタに赤外線LED Brickを接続し、１秒間隔で赤外線LEDを発光させます。
 
 ```python
