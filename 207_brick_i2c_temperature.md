@@ -15,7 +15,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/207_temperature_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|Edison|
+|Arduino|RaspberryPi|IchigoJam|Edison|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
@@ -41,7 +41,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoTemperature-ADT7410-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoTemperature-ADT7410-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoTemperature_ADT7410
@@ -97,7 +97,7 @@ void loop() {
 
 ```
 
-### for RaspberryPI
+### for RaspberryPi
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度をコンソールに出力します。
 
 ```python
@@ -141,7 +141,7 @@ if __name__ == '__main__':
         print
         time.sleep(1)
 ```
-### for Ichigojam
+### for IchigoJam
 I2CコネクタにTemperature Brick(I2C)を接続し、取得した温度を画面上に出力します。
 ```
 10 'FaBo Brick Sample
