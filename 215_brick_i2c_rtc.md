@@ -13,7 +13,7 @@ I2Cコネクタへ接続します。
 ![](/img/200_i2c/connect/215_rtc_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -39,7 +39,7 @@ I2Cコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoRTC-PCF2129-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoRTC-PCF2129-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoRTC_PCF2129
@@ -187,8 +187,8 @@ void setRTC(byte year, byte month, byte day, byte wd, byte hour, byte min, byte 
 
 ```
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+### for RaspberryPi
+上記のRaspberryPi Python Libraryをインストールしてからご使用ください。
 
 ```python
 # coding: utf-8
@@ -240,7 +240,7 @@ except KeyboardInterrupt:
     sys.exit()
 ```
 
-### for Ichigojam
+### for IchigoJam
 I2CコネクタにRTC Brickを接続し、指定したい日時からの正確な経過時間を計測してシリアルモニタに出力します。
 ```
 10 'FaBo Brick Sample
