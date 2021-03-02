@@ -14,7 +14,7 @@ Serialコネクタへ接続します。
 ![](/img/300_serial/connect/302_bluetooth_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|
+|Arduino|RaspberryPi|IchigoJam|
 |:--:|:--:|:--:|
 |◯|◯|◯|
 
@@ -71,7 +71,7 @@ void loop() // run over and over
 }
 ```
 
-### for RaspberryPI
+### for RaspberryPi
 SerialコネクタにBluetooth Brickを接続し、他の端末と無線通信します。
 コンソール上で文字を入力し確定することで、Bluetooth接続を行っている端末に文字を送信することができます。
 ```python
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
 
 ### Macでのシリアル通信確認
-* Arduino(またはRaspberryPI)にBluetoothを接続した状態でPCと接続
+* Arduino(またはRaspberryPi)にBluetoothを接続した状態でPCと接続
 
 * Macのメニューよりシステム環境設定を開き、「Bluetooth」を選択
 
