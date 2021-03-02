@@ -25,7 +25,7 @@ Brick裏面にはコネクタが２種類あります。
 また、発熱にも十分ご注意ください。
 
 ## Support
-|Arduino|RaspberryPI|
+|Arduino|RaspberryPi|
 |:--:|:--:|
 |◯|◯|
 
