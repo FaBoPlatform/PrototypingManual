@@ -17,7 +17,7 @@ Serialコネクタへ接続します。
 ![](/img/300_serial/connect/307_ble_nordic_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|
+|Arduino|RaspberryPi|
 |:--:|:--:|
 |◯|◯|
 
@@ -40,7 +40,7 @@ Serialコネクタへ接続します。
 - [Library GitHub](https://github.com/FaBoPlatform/FaBoBLE-Nordic-Library)
 - [Library Document](http://fabo.io/doxygen/FaBoBLE-Nordic-Library/)
 
-### for RapberryPI
+### for RaspberryPi
 - pipからインストール
 ```
 pip install FaBoBLE_Nordic
@@ -52,8 +52,8 @@ pip install FaBoBLE_Nordic
 ### for Arduino
 上記のArduino Libraryをインストールし、スケッチの例、「FaBo 307 BLE Nordic」からお選びください。
 
-### for RapberryPI
-上記のRapberryPI Python Libraryをインストールしてからご使用ください。
+### for RaspberryPi
+上記のRaspberryPi Python Libraryをインストールしてからご使用ください。
 
 ```python
 # coding: utf-8
