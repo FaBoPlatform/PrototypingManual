@@ -12,7 +12,7 @@ Serialコネクタへ接続し、MicroUSBコネクタを他のデバイスに接
 ![](/img/300_serial/connect/304_usbserial_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|IchigoJam|NRF51|
+|Arduino|RaspberryPi|IchigoJam|NRF51|
 |:--:|:--:|:--:|:--:|
 |◯|◯|◯|◯|
 
@@ -66,7 +66,7 @@ void loop() // run over and over
 }
 ```
 
-### for RaspberryPI
+### for RaspberryPi
 ```python
 # coding: utf-8
 #
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 ```
 
 ### MACでのシリアル通信確認
-* Arduino(またはRaspberryPI)にBrickを接続した状態でPCと接続
+* Arduino(またはRaspberryPi)にBrickを接続した状態でPCと接続
 
 * ターミナルを起動し、下記のコマンドを実行して接続先の確認
 <br>
