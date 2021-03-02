@@ -12,7 +12,7 @@ RGB Color LEDをBar状に5個配置したBrickです。
 ![](/img/400_led/connect/403_ledbar_connect.jpg)
 
 ## Support
-|Arduino|RaspberryPI|
+|Arduino|RaspberryPi|
 |:--:|:--:|
 |◯|◯|
 
