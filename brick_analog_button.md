@@ -15,7 +15,7 @@ A0コネクタに接続したButton Brickの入力により、A1コネクタに�
 
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
+| Arduino | RaspberryPi | IchigoJam |
 | -- | -- | -- |
 | <center>○ | <center>○ | <center>○ |
 
@@ -60,7 +60,7 @@ void loop(){
   }
 }
 ```
-### Raspberry PI
+### RaspberryPi
 ```python
 # coding: utf-8
 #
