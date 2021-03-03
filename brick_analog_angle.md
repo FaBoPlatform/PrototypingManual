@@ -10,7 +10,7 @@ I/Oピンからアナログ値(0〜1023)を取得することができます。
 A0コネクタにAngleを接続して、デジタル3(PWM)コネクタに接続したLED Brickの明るさ調節に使用しています。
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
+| Arduino | RaspberryPi | IchigoJam |
 | -- | -- | -- |
 | <center>◯ | <center>◯ | <center>◯ |
 
@@ -56,7 +56,7 @@ analogWriteでは0〜255の値のみ出力することができるため、取�
 <br>
 
 
-### RaspberyPI
+### RaspberyPi
 ```python
 #!/usr/bin/env python
 # coding: utf-8
@@ -119,7 +119,9 @@ if __name__ == '__main__':
 
 
 ### IchigoJam
-#####注意<br>アナログはIN2のみで数値取得可能です。
+
+※アナログはIN2のみで数値取得可能です。
+<br>
 デジタルの場合はIN(2)、アナログの場合がANA(2)とします。
 
 ```Basic
