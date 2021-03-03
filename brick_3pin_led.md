@@ -7,8 +7,8 @@ RGB Color LEDを使ったBrickです。
 A0コネクタに接続します。
 
 ## Support
-| Arduino | RaspberryPI | IchigoJam |
-| -- | -- |
+| Arduino | RaspberryPi | IchigoJam |
+| -- | -- | -- |
 | <center>○ | <center>× | <center>× |
 
 ## Schematic
